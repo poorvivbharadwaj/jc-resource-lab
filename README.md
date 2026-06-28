@@ -1,35 +1,6 @@
 # JC Resource Lab — Complete Deployment Guide
 
-## What's included
 
-| File | Purpose |
-|---|---|
-| `server.js` | Backend + frontend server (Node.js / Express) |
-| `frontend_b64.txt` | Your React frontend (base64-encoded, read by server.js) |
-| `frontend_decoded.js` | Human-readable source of the frontend (reference only) |
-| `package.json` | Node.js dependencies |
-| `schema.sql` | Supabase database schema |
-| `.env` | Environment variables (fill in your values) |
-
----
-
-## ✅ Changes applied in this build
-
-### 1. About Us Page
-- **Mohan M Gowda** now displays his qualifications directly below his name:
-  ```
-  Mohan M Gowda
-  [B.E, M.Tech, B.Ed]
-  Founder & Educator
-  ```
-
-### 2. Contact Us Page — Mobile Fix
-- "Send Message" button is now fully visible on all screen sizes (320px – desktop)
-- No horizontal scrolling
-- Form and button never get clipped by overflow:hidden on any viewport
-- All inputs use width:100% + box-sizing:border-box
-
----
 
 ## STEP 1 — Supabase Setup (one-time)
 
